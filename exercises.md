@@ -326,13 +326,13 @@ verbosity bias và self-preference bằng cách nào?
 Chỉ làm sau khi hoàn thành 3.1–3.3. Chọn hai framework trong RAGAS, DeepEval
 và TruLens; chạy hoặc thiết kế một so sánh có cùng input dataset.
 
-**Phạm vi và giới hạn (nói rõ):** Tôi chọn **RAGAS** và **DeepEval**. Quy chế lab chỉ
-cho dùng thư viện trong `requirements.txt` (openai, python-dotenv, pytest), nên tôi
-**không cài và không chạy** hai framework này. Đây là phần **thiết kế so sánh**
-dựa trên hiểu biết về hai framework (có thể lệch theo phiên bản mới nhất, cần
-kiểm tra tài liệu chính thức trước khi dùng thật). Không có điểm số framework nào
-trong bảng là số đo; chỗ nào là dự đoán đều ghi **[Dự đoán]**. Số đo thật duy nhất là
-kết quả word-overlap của lab này.
+**Phạm vi và giới hạn (nói rõ):** Tôi chọn **RAGAS** và **DeepEval**. Đề bài cho phép
+"chạy hoặc thiết kế" nên tôi chọn **thiết kế so sánh**. Tôi đã thử cài hai framework vào
+một venv riêng (không đụng `requirements.txt` hay `solution.py`), nhưng pip bị timeout vì
+mạng yếu nên **chưa chạy được**. Phần dưới dựa trên hiểu biết về hai framework (có thể lệch
+theo phiên bản mới nhất, cần kiểm tra tài liệu chính thức trước khi dùng thật). Không có
+điểm số framework nào trong bảng là số đo; chỗ nào là dự đoán đều ghi **[Dự đoán]**. Số đo
+thật duy nhất là kết quả word-overlap của lab này.
 
 | Tiêu chí | Framework 1: RAGAS | Framework 2: DeepEval |
 |---|---|---|
